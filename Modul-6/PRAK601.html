@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modul 6</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+    h1,
+    h2,
+    .navbar-brand {
+      font-family: "Playfair Display", serif;
+      font-weight: 800;
+    }
+
+    .subtitle {
+      font-family: "Raleway", sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.3rem;
+    }
+
+    .copyright {
+      font-family: "Raleway", sans-serif;
+      font-size: 0.5rem;
+      position: relative;
+      top: -0.7rem;
+    }
+
+    .icon {
+      font-size: 0.8rem;
+    }
+
+    .borders div {
+      background-color: transparent;
+      border-color: #000000;
+      border-style: solid;
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      z-index: 999;
+      pointer-events: none;
+    }
+
+    .border-top-left {
+      border-width: 0.5rem 0 0 0.5rem;
+      left: 0;
+      top: 0;
+    }
+
+    .border-top-right {
+      border-width: 0.5rem 0.5rem 0 0;
+      right: 0;
+      top: 0;
+    }
+
+    .border-bottom-left {
+      border-width: 0 0 0.5rem 0.5rem;
+      left: 0;
+      bottom: 0;
+    }
+
+    .border-bottom-right {
+      border-width: 0 0.5rem 0.5rem 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .navbar-nav,
+    .btn {
+      font-family: "Playfair Display", serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body class="px-2">
+
+  <!-- Navbar -->
+  <header class="bg-light shadow-sm align-items-center p-3">
+    <nav class="navbar navbar-expand justify-content-between mx-5 px-2">
+      <a href="#" class="navbar-brand ">JPhotography</a>
+      <div class="navbar-nav align-items-center">
+        <a class="nav-link px-3 py-2 border rounded-3 mx-2">HOME</a>
+        <a class="nav-link disabled mx-2">ABOUT ME</a>
+        <a class="nav-link disabled mx-2">PORTFOLIO</a>
+        <a class="nav-link disabled mx-2">CONTACT</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Content -->
+  <main class="pb-3">
+
+    <div class="text-center my-5">
+      <h1 class="fs-3 m-0">Hi. Hello.. I Am JohnDas...!</h1>
+      <h2 class="fs-4 m-0">I Travel Around The World To Get The Best Photos.!</h2>
+      <p class="subtitle text-body-secondary my-2">AWARD WINNING PHOTOGRAPHER / CINEMATOGRAPHER / WRITER</p>
+    </div>
+
+    <!-- Photos -->
+
+    <div class="container-fluid">
+      <div class="container text-center">
+        <button type="button"
+          class="btn text-body-secondary border border-dark-subtle rounded-pill px-3 py-1">All</button>
+        <button type="button" class="btn text-body-secondary">Landscape</button>
+        <button type="button" class="btn text-body-secondary">Portrait</button>
+        <button type="button" class="btn text-body-secondary">Product</button>
+      </div>
+
+      <div class="row justify-content-center g-2 mt-0">
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image1.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image2.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image3.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image4.png" class="img-fluid" />
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row justify-content-center g-2 mt-0">
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image2.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image3.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image4.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image1.png" class="img-fluid" />
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row justify-content-center g-2 mt-0">
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image3.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image4.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image1.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image2.png" class="img-fluid" />
+          </div>
+        </div>
+
+      </div>
+      <div class="row justify-content-center g-2 mt-0">
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image4.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image1.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image2.png" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="ratio ratio-4x3">
+            <img src="Assets/image3.png" class="img-fluid" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-section text-center my-5 border-top pt-5">
+    <div class="navbar-brand">JPhotography</div>
+    <small class="copyright text-body-secondary">© Copyrights 2019. All Rights Reserved.</small>
+    <div class="icon text-body-secondary">
+      <i class="fa-brands fa-dribbble px-2"></i>
+      <i class="fa-brands fa-behance px-2"></i>
+      <i class="fa-brands fa-instagram px-2"></i>
+      <i class="fa-brands fa-500px px-2"></i>
+      <i class="fa-brands fa-flickr px-2"></i>
+      <i class="fa-brands fa-square-facebook px-2"></i>
+      <i class="fa-brands fa-twitter px-2"></i>
+    </div>
+  </footer>
+
+  <!--Frame Border-->
+  <div class="borders">
+    <div class="border-top-left"></div>
+    <div class="border-top-right"></div>
+    <div class="border-bottom-left"></div>
+    <div class="border-bottom-right"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
